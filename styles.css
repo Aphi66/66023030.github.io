@@ -20,17 +20,36 @@ body {
 header {
     text-align: center;
     border-bottom: 2px solid #007bff;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     margin-bottom: 20px;
 }
 
-header h1 {
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    object-fit: cover;
+}
+
+.profile .info {
+    text-align: left;
+}
+
+.profile h1 {
     margin: 0;
     font-size: 2rem;
     color: #007bff;
 }
 
-header p {
+.profile p {
     font-size: 1.2rem;
     color: #666;
 }
